@@ -191,6 +191,10 @@ header {
 .contact-icon {
   margin-right: 10px;
   fill: var(--secondary-text-color);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list:hover .contact-icon,
@@ -422,6 +426,10 @@ header {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-icon:hover,
@@ -461,6 +469,10 @@ header {
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: var(--icon-color);
@@ -611,7 +623,7 @@ header {
   border: none;
   padding: 6px 22px;
 
-  transition-property: background-color, color;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
